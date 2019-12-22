@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf0051e0-ad60-480c-8f7c-72a6ad6f34b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UaRfV35NeWGegacJvrP8H38jg1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shani\OneDrive\Projects\Python projects\tensorEnv\KNN" />
+      <recent name="C:\Users\shani\OneDrive\Projects\Python projects\tensorEnv\Linear Regression" />
+      <recent name="C:\Users\shani\OneDrive\Projects\Python projects\tensorEnv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fashion_mnist_nn">
+    <configuration name="fashion_mnist_nn" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorEnv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shani\.conda\envs\tensor\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Neural Networks/Fashion MNIST" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Neural Networks/Fashion MNIST/fashion_mnist_nn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="k_means" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorEnv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shani\.conda\envs\tensor\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K Means CLustering" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K Means CLustering/k_means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="knn" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorEnv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shani\.conda\envs\tensor\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/knn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorEnv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shani\.conda\envs\tensor\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linear Regression" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear Regression/linear_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorEnv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shani\.conda\envs\tensor\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SVM" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SVM/svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.fashion_mnist_nn" />
+      <item itemvalue="Python.k_means" />
+      <item itemvalue="Python.knn" />
+      <item itemvalue="Python.linear_regression" />
+      <item itemvalue="Python.svm" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf0051e0-ad60-480c-8f7c-72a6ad6f34b9" name="Default Changelist" comment="" />
+      <created>1575592825129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575592825129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577024234103">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1577024234103" />
+    <state x="411" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577027438599">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="411" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1577027438599" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1577024071833">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1577024071833" />
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1577027968402">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577027968402" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1577027968401">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577027968401" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1577027968401">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577027968401" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1577027968401">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577027968401" />
+    <state x="263" y="118" key="IDE.errors.dialog" timestamp="1575656048407">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="118" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1575656048407" />
+    <state x="184" y="25" key="SettingsEditor" timestamp="1575593165614">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="25" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1575593165614" />
+    <state x="384" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1575592876098">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="384" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1575592876098" />
+  </component>
+</project>
