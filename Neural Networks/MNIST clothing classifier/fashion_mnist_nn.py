@@ -41,6 +41,6 @@ predictions = saved_model.predict(test_images)
 for i in range(5):
     plt.grid(False)
     plt.imshow(test_images[i], cmap=plt.cm.binary)
-    plt.xlabel("What it actually is: " + classe_names[test_labels[i]])
+    plt.xlabel("What it actually is: " + class_names[test_labels[i]])
     plt.title("Neural network predicted: " + class_names[np.argmax(predictions[i])])
     plt.show()
