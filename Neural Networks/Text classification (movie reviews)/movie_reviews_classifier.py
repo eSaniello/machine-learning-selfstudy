@@ -1,45 +1,33 @@
 import tensorflow as tf
-import tensorflow_hub as hub
-import tensorflow_datasets as tfds
+from tensorflow import keras
 import numpy as np
 
-# split data in 60% for training and 40% for validation
-train_validation_split = tfds.Split.TRAIN.subsplit([6, 4])
+data = keras.datasets.imdb
 
-(train_data, validation_data), test_data = tfds.load(
-    name="imdb_reviews",
-    split=(train_validation_split, tfds.Split.TEST),
-    as_supervised=True)
+(train_data, train_labels), (test_data, test_labels) = data.load_data()
 
-# look at data
-train_examples_batch, train_labels_batch = next(iter(train_data.batch(10)))
-# print(train_examples_batch)
-# print(train_labels_batch)
+word_index = data.get_word_index()
 
-embedding = "https://tfhub.dev/google/tf2-preview/gnews-swivel-20dim/1"
-hub_layer = hub.KerasLayer(embedding, input_shape=[],
-                           dtype=tf.string, trainable=True)
-hub_layer(train_examples_batch[:3])
+word_index = {k: (v + 3) for k, v in word_index.items()}
 
-model = tf.keras.Sequential()
-model.add(hub_layer)
-model.add(tf.keras.layers.Dense(50, activation='relu'))
-model.add(tf.keras.layers.Dense(1, activation='sigmoid'))
+word_index["<PAD>"] = 0
+word_index["<START>"] = 1
+word_index["<UNK>"] = 2
+word_index["<UNUSED>"] = 3
 
-# model.summary()
+reverse_word_index = dict([(value, key) for (key, value) in word_index.items()])
 
-model.compile(optimizer='adam',
-              loss='binary_crossentropy',
-              metrics=['accuracy'])
+train_data = keras.preprocessing.sequence.pad_sequences(train_data, value=word_index["<PAD>"], padding="post", maxlen=255)
+test_data = keras.preprocessing.sequence.pad_sequences(test_data, value=word_index["<PAD>"], padding="post", maxlen=255)
 
-# training, evaluating the model
-history = model.fit(train_data.shuffle(10000).batch(512),
-                    epochs=25,
-                    validation_data=validation_data.batch(512),
-                    verbose=1)
+def decode_review(text):
+    return " ".join([reverse_word_index.get(i, "?") for i in text])
 
-results = model.evaluate(test_data.batch(512), verbose=2)
 
-# print metrics
-for name, value in zip(model.metrics_names, results):
-    print("%s: %.3f" % (name, value))
+model = keras.Sequential()
+model.add(keras.layers.Embedding(10000, 16))
+model.add(keras.layers.GlobalAveragePooling1D())
+model.add(keras.layers.Dense(16, activation="relu"))
+model.add(keras.layers.Dense(1, activation="sigmoid"))
+
+model.summary()
